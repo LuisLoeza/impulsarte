@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="shortcut icon" href="imgs/icono.svg" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css"> -->
+    <script src="https://kit.fontawesome.com/fcef9d91d7.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="libs/responsiveSlides/responsiveslides.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/mystyles.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <nav class="navbar is-primary " role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <img src="imgs/logo.svg" width="100">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+
+        <div id="navMenu" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="/"><i class="fa-solid fa-house"></i>&nbsp;Inicio</a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link"><i class="fa-solid fa-hand-holding-dollar"></i>&nbsp;Productos</a>
+                    <div class="navbar-dropdown is-right">
+                        <a class="navbar-item" href="#">Producto 1</a>
+                        <a class="navbar-item" href="#">Producto 2</a>
+                        <a class="navbar-item" href="#">Producto 3</a>
+                        <!-- <hr class="navbar-divider"> -->
+                        <a class="navbar-item" href="#">Producto 4</a>
+                    </div>
+                </div>
+                <a class="navbar-item" href="#"><i class="fa-solid fa-users-line"></i>&nbsp;Conocenos</a>
+                <a class="navbar-item" href="#"><i class="fa-solid fa-map-location-dot"></i>&nbsp;Ubicanos</a>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-link"><strong>Registrate&nbsp;</strong><i
+                                class="fa-solid fa-user-plus"></i></a>
+                        <a class="button is-info"><strong>Soy cliente&nbsp;</strong><i
+                                class="fa-solid fa-user-check"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <section class="section">
+            <div class="columns is-vcentered is-flex-direction-row-reverse">
+                <div class="column">
+                    <div class="slider">
+                        <ul class="rslides">
+                            <li>
+                                <figure>
+                                    <img src="imgs/img_principal_3.jpg" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="imgs/img_principal.jpg" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="imgs/img_principal_2.jpg" alt="">
+                                </figure>
+                            </li>
+                        </ul>
+                        <div class="control_r"></div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="content">
+                                <h1 class="title is-1 is-spaced has-text-link">Titulo: Lorem ipsum dolor sit amet.</h1>
+                                <p class="subtitle is-5 has-text-primary prueba">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, ullam?,
+                                    Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Ratione,
+                                    voluptatum?
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="button is-link is-outlined">Ver Productos</a>
+                                    <a href="#" class="button is-primary is-outlined">Opcion 2</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="columns">
+                <div class="column">
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-96x96">
+                                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                    <div class="tags has-addons">
+                                        <span class="tag is-link is-light pr-0">
+                                            <i class="fa-solid fa-newspaper"></i>
+                                        </span>
+                                        <strong class="tag is-primary is-light">
+                                            Novedades
+                                        </strong>
+                                        <p>
+                                            <span>
+                                                Entérate de nuestros eventos más recientes. <br>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+                                                eum.
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <nav class="level is-mobile">
+                                    <div class="level-left">
+                                        <a class="level-item" aria-label="reply">Leer más&nbsp;
+                                            <span class="icon is-small">
+                                                <i class="fa-solid fa-plus"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-96x96">
+                                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                    <div class="tags has-addons">
+                                        <span class="tag is-link is-light pr-0">
+                                            <i class="fa-solid fa-coins"></i>
+                                        </span>
+                                        <strong class="tag is-primary is-light">
+                                            Finanzas
+                                        </strong>
+                                        <p>
+                                            <span>
+                                                Útiles consejos para administrar mejor tu dinero.
+                                                <br>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, nobis.
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <nav class="level is-mobile">
+                                    <div class="level-left">
+                                        <a class="level-item" aria-label="reply">Leer más&nbsp;
+                                            <span class="icon is-small">
+                                                <i class="fa-solid fa-plus"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-96x96">
+                                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                    <div class="tags has-addons">
+                                        <span class="tag is-link is-light pr-0">
+                                            <i class="fa-solid fa-lightbulb"></i>
+                                        </span>
+                                        <strong class="tag is-primary is-light">
+                                            Tips
+                                        </strong>
+                                        <p>
+                                            <span>
+                                                Tips útiles para el hogar.
+                                                <br>
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+                                                accusantium magni ea mollitia asperiores?
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <nav class="level is-mobile">
+                                    <div class="level-left">
+                                        <a aria-label="reply" class="level-item js-modal-trigger"
+                                            data-target="modal-tips">Leer más&nbsp;
+                                            <span class="icon is-small">
+                                                <i class="fa-solid fa-plus"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="modal-tips" class="modal is-active">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <header class="modal-card-head">
+                    <p class="modal-card-title has-text-primary"><i class="fa-solid fa-lightbulb"></i> Tips útiles</p>
+                    <button class="delete" aria-label="close"></button>
+                </header>
+                <section class="modal-card-body">
+                    <div class="content">
+                        <article class="accordion">
+                            <section>
+                                <header>
+                                    <h5 class="has-text-link">Energía</h5>
+                                    <p class="has-text-info">Consejos para ahorrar energía</p>
+                                </header>
+                                <div class="accord-content">
+                                    <div class="columns">
+                                        <div class="column is-4"> <img src="imgs/energia.jpg" alt="" width="300"></div>
+                                        <div class="column">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius repellat porro
+                                                mollitia deserunt fuga ipsa ab cumque consequuntur ratione tempora delectus, non
+                                                minus nihil excepturi quisquam enim provident debitis? Mollitia pariatur sint
+                                                quibusdam error ea est at eveniet nobis ullam voluptatibus enim ipsa delectus
+                                                soluta animi vitae, amet odio accusamus officia necessitatibus optio tempore?
+                                                Totam alias est deserunt veritatis soluta, commodi libero itaque nobis? Omnis
+                                                provident quia quod eum reiciendis soluta placeat atque, ad incidunt, dolorum
+                                                illo. Repudiandae nesciunt doloribus in ad enim delectus cupiditate illo dolores
+                                                dicta? Sint, commodi modi? Maiores veritatis, sit beatae cumque odit obcaecati
+                                                quas eum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </article>
+                        <article class="accordion">
+                            <section>
+                                <header>
+                                    <h5 class="has-text-link">Agua</h5>
+                                    <p class="has-text-info">Consejos para ahorrar agua</p>
+                                </header>
+                                <div class="accord-content">
+                                    <div class="columns">
+                                        <div class="column is-4"> <img src="imgs/ahorro_agua.jpg" alt="" width="300"></div>
+                                        <div class="column">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius repellat porro
+                                                mollitia deserunt fuga ipsa ab cumque consequuntur ratione tempora delectus, non
+                                                minus nihil excepturi quisquam enim provident debitis? Mollitia pariatur sint
+                                                quibusdam error ea est at eveniet nobis ullam voluptatibus enim ipsa delectus
+                                                soluta animi vitae, amet odio accusamus officia necessitatibus optio tempore?
+                                                Totam alias est deserunt veritatis soluta, commodi libero itaque nobis? Omnis
+                                                provident quia quod eum reiciendis soluta placeat atque, ad incidunt, dolorum
+                                                illo. Repudiandae nesciunt doloribus in ad enim delectus cupiditate illo dolores
+                                                dicta? Sint, commodi modi? Maiores veritatis, sit beatae cumque odit obcaecati
+                                                quas eum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </article>
+                        <article class="accordion">
+                            <section>
+                                <header>
+                                    <h5 class="has-text-link">Combustible</h5>
+                                    <p class="has-text-info">Consejos para ahorrar Combustible</p>
+                                </header>
+                                <div class="accord-content">
+                                    <div class="columns">
+                                        <div class="column is-4"> <img src="imgs/ahorro_gasolina.jpg" alt="" width="300"></div>
+                                        <div class="column">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius repellat porro
+                                                mollitia deserunt fuga ipsa ab cumque consequuntur ratione tempora delectus, non
+                                                minus nihil excepturi quisquam enim provident debitis? Mollitia pariatur sint
+                                                quibusdam error ea est at eveniet nobis ullam voluptatibus enim ipsa delectus
+                                                soluta animi vitae, amet odio accusamus officia necessitatibus optio tempore?
+                                                Totam alias est deserunt veritatis soluta, commodi libero itaque nobis? Omnis
+                                                provident quia quod eum reiciendis soluta placeat atque, ad incidunt, dolorum
+                                                illo. Repudiandae nesciunt doloribus in ad enim delectus cupiditate illo dolores
+                                                dicta? Sint, commodi modi? Maiores veritatis, sit beatae cumque odit obcaecati
+                                                quas eum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </article>
+                    </div>
+                </section>
+                <footer class="modal-card-foot">
+                    <!-- <button class="button is-info">Ok</button> -->
+                    <!-- <button class="button is-link has-text-white">Cerrar</button> -->
+                </footer>
+            </div>
+        </div>
+        <section class="section">
+            <h1 class="title is- has-text-link">¡Nuestro Beneficios!</h1>
+            <h2 class="subtitle has-text-primary">
+                Impulsarte ofrece varios beneficios...
+            </h2>
+            <div id="tabs-select">
+                <div class="tabs is-centered is-boxed">
+                    <ul>
+                        <li class="tab is-active">
+                            <a href="#tabs-1">
+                                <span class="icon is-small"><i class="fa-solid fa-users"></i></span>
+                                <span class="tab-movil">¡Trato Amable!</span>
+                            </a>
+                        </li>
+                        <li class="tab">
+                            <a href="#tabs-2">
+                                <span class="icon is-small"><i class="fa-solid fa-stopwatch"></i></span>
+                                <span class="tab-movil">¡Credito en 24 Hrs!</span>
+                            </a>
+                        </li>
+                        <li class="tab">
+                            <a href="#tabs-3">
+                                <span class="icon is-small"><i class="fa-solid fa-piggy-bank"></i></span>
+                                <span class="tab-movil">¡Sin ahorros forzosos!</span>
+                            </a>
+                        </li>
+                        <li class="tab">
+                            <a href="#tabs-4">
+                                <span class="icon is-small"><i class="fa-solid fa-handshake-simple"></i></span>
+                                <span class="tab-movil">¡Sin reuniones semanales!</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content">
+                    <div id="tabs-1" class="columns is-vcentered">
+                        <div class="column level">
+                            <figure class="level-item">
+                                <img src="imgs/fb_1.jpg">
+                            </figure>
+                        </div>
+                        <div class="column box">
+                            <h2 class="title is-3 has-text-primary mb-5">Trato amable y respetuoso</h2>
+                            <h4 class="subtitle is-6 has-text-link">Con nosotros recibirá el trato que se merece</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odio obcaecati
+                                vitae facere quisquam doloribus excepturi, similique, non commodi quaerat quasi sequi,
+                                id quod distinctio ratione. Soluta nobis itaque voluptatum deserunt illo deleniti
+                                dolorum eos accusamus quis, sit dicta laudantium quas cupiditate odio ex delectus
+                                aperiam. Blanditiis sed id ex!</p>
+                        </div>
+                    </div>
+                    <div id="tabs-2" class="columns is-vcentered">
+                        <div class="column level">
+                            <figure class="level-item">
+                                <img src="imgs/fb_3.jpg">
+                            </figure>
+                        </div>
+                        <div class="column box">
+                            <h2 class="title is-3 has-text-primary mb-5">Tu crédito en 24 horas</h2>
+                            <h4 class="subtitle is-6 has-text-link">En 24 hora ya tienes tu crédito para invertir en tu
+                                negocio</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolor animi quis
+                                debitis quae. Quae accusantium ducimus, eaque quo adipisci consequatur est hic sequi
+                                dolores repudiandae mollitia minima eius reprehenderit accusamus? Harum obcaecati hic
+                                rem, sunt perspiciatis modi beatae ipsa adipisci, iusto neque dolorem ex alias dolore
+                                optio, dicta asperiores.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="tabs-3" class="columns is-vcentered">
+                        <div class="column level">
+                            <figure class="level-item">
+                                <img src="imgs/fb_4.jpg">
+                            </figure>
+                        </div>
+                        <div class="column box">
+                            <h2 class="title is-3 has-text-primary mb-5">Sin ahorros forzosos</h2>
+                            <h4 class="subtitle is-6 has-text-link">No hay necesidad de realizar ahorros forzosos.</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo rem dolores ad fuga
+                                veniam, quaerat recusandae repellendus ex, sunt sapiente harum illum debitis dignissimos
+                                placeat ipsa nam non. Ipsa et, animi temporibus fugiat quia placeat facilis nobis
+                                recusandae quibusdam sunt nisi explicabo, dolores amet aperiam veniam maxime, cupiditate
+                                doloremque eius?</p>
+                        </div>
+                    </div>
+                    <div id="tabs-4" class="columns is-vcentered">
+                        <div class="column level">
+                            <figure class="level-item">
+                                <img src="imgs/fb_2.jpg">
+                            </figure>
+                        </div>
+                        <div class="column box">
+                            <h2 class="title is-3 has-text-primary mb-5">Sin reuniones semanales</h2>
+                            <h4 class="subtitle is-6 has-text-link">Porque sabemos que su tiempo es lo más importante
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum odit sint, perspiciatis
+                                ullam expedita ea! Distinctio nisi illo adipisci, velit tempora nam vel nostrum quae,
+                                sed vitae repellat quod iusto. Voluptas placeat quo, debitis est mollitia nam blanditiis
+                                minima. Est saepe accusantium eligendi distinctio illum doloremque ducimus maxime
+                                deleniti ad!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer_custom has-background-info has-text-white">
+        <div class="columns content has-text-centered">
+            <article class="column column_custom">
+                <h4 class="has-text-white">Informacion de contacto</h4>
+                <p>Si usted desea más información de nuestros productos y servicios, o tiene alguna duda o sugerencia,
+                    ponemos a su disposición los siguientes medios.</p>
+                <h4 class="has-text-white">Lada sin costo</h4>
+                <span>01800 224 6847</span><br>
+                <span>01 (961) 613-67-35</span>
+            </article>
+            <article class="column column_custom">
+                <h4 class="has-text-white">Quejas, denuncias y sugerencias</h4>
+                <p>e-mail: lfernandez@invirtiendo.com.mx</p>
+                <p>Ext. 118</p>
+                <h4 class="has-text-white">Dudas</h4>
+                <p>e-mail: smiranda@invirtiendo.com.mx</p>
+                <p>Ext. 101</p>
+            </article>
+            <article class="column column_custom">
+                <div class="btn_foot">
+                    <h4 class="has-text-white">Sitios de interés</h4>
+                    <a href="#" class="">Aviso de privacidad</a>
+                    <a href="#" class="">ProDesarrollo</a>
+                    <a href="#" class="">FinRural</a>
+                    <a href="#" class="">Condusef</a>
+                    <a href="#" class="">Nacional Financiera</a>
+                    <a href="#" class="">SAT</a>
+                    <figure class="border m-0 p-0">
+                        <a href="#">
+                            <img src="imgs/buro.png" alt="">
+                        </a>
+                    </figure>
+                </div>
+            </article>
+            <article class="column column_custom">
+                <div class="btn_foot">
+                    <a href="#">Inicio</a>
+                    <a href="#">Productos</a>
+                    <a href="#">Conocenos</a>
+                    <a href="#">Ubicanos</a>
+                    <a href="#">Registrate</a>
+                    <a href="#">Soy cliente</a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </article>
+        </div>
+        <p class="has-text-centered">
+            © Impulsarte para crecer todos los derechos reservados
+        </p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
